@@ -18,7 +18,6 @@
 		C223610F1B385FE30008202A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223610E1B385FE30008202A /* ViewController.swift */; };
 		C22361121B385FE30008202A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22361101B385FE30008202A /* Main.storyboard */; };
 		C22361141B385FE30008202A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22361131B385FE30008202A /* Assets.xcassets */; };
-		C22361171B385FE30008202A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22361151B385FE30008202A /* LaunchScreen.storyboard */; };
 		C22361221B385FE30008202A /* M06P01_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22361211B385FE30008202A /* M06P01_____Tests.swift */; };
 		C223612D1B385FE30008202A /* M06P01_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223612C1B385FE30008202A /* M06P01_____UITests.swift */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		C223610E1B385FE30008202A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C22361111B385FE30008202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C22361131B385FE30008202A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C22361161B385FE30008202A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C22361181B385FE30008202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C223611D1B385FE30008202A /* M06P01-果冻效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M06P01-果冻效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22361211B385FE30008202A /* M06P01_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "M06P01_____Tests.swift"; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 				C223610E1B385FE30008202A /* ViewController.swift */,
 				C22361101B385FE30008202A /* Main.storyboard */,
 				C22361131B385FE30008202A /* Assets.xcassets */,
-				C22361151B385FE30008202A /* LaunchScreen.storyboard */,
 				C22361181B385FE30008202A /* Info.plist */,
 				C20AEE471B3A8CCE00C08178 /* OCContainerHeader.h */,
 				C20AEE2F1B3A81D800C08178 /* DemoCell.swift */,
@@ -271,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C22361171B385FE30008202A /* LaunchScreen.storyboard in Resources */,
 				C22361141B385FE30008202A /* Assets.xcassets in Resources */,
 				C22361121B385FE30008202A /* Main.storyboard in Resources */,
 			);
@@ -350,14 +346,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C22361151B385FE30008202A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C22361161B385FE30008202A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -397,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -437,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/OCContainerHeader.h";
@@ -451,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "M06P01-果冻效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lpk.M06P01-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "M06P01-果冻效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lpk.M06P01-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
