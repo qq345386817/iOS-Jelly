@@ -16,6 +16,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.showsHorizontalScrollIndicator = false
+        
         pageControl.pageCount = 8
         pageControl.unSelectedColor = UIColor.darkGrayColor()
         pageControl.selectedColor = UIColor.redColor()
